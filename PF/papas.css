@@ -1,0 +1,293 @@
+/*
+	Stylesheet for Papa's
+	Author:Monserrat Rugerio
+	Date: 10/12/23
+	File name:papas.css
+	Associated files: papas.html and papas-layout.css
+*/
+/* body styles */
+body{
+	font-family:Arial, verdana, sans-serif;
+	background-color:ivory;
+	margin-right:2.0em;
+	margin-left:2.0em;
+}
+/* header styles */
+h1{
+	text-align: center;
+	font-size: 5.3em;
+	color:#FF5500; 
+	text-shadow: #FFC34D 3px 3px 3px;
+}
+header figure{
+	text-align:center;
+}
+nav ul {
+	border: 3px solid #F08E33;
+	display:flex;
+	padding-left:0px;
+	flex-flow:row;
+	justify-content: center;
+}
+nav ul li {
+	list-style-type:none;
+	border-right: 3px solid #F08E33;
+	flex: 1 1 auto;
+	text-align:center;
+	font-variant:small-caps;
+}
+nav ul li :last-of-type{
+	border:none;
+}
+
+nav ul li a:hover{
+	text-decoration:none;
+}
+nav{
+	line-height:3em;
+}
+h2{
+	color:ivory; 
+	font-size: 2em;
+	background: linear-gradient(to right, #F08E33 50%, ivory  );
+	padding-bottom:1.0em;
+	padding-top:0.5em;
+}
+div img{
+    border-radius:60px;
+    overflow:hidden;
+    border:7px solid;
+}
+
+#coupons{
+	text-align:center;
+}
+#coupons img{
+	border-bottom: 5px dashed black;
+	border-left: 5px dashed black;
+	border-right: 5px dashed black;	
+	
+}
+#coupons img:first-of-type {
+	border-top:5px dashed black;
+}
+#years h5{
+	font-size:1.5em;
+	overflow-wrap: break-word;
+}
+#years ul{
+	padding-left: 5px;
+}
+#years ul li{
+	list-style: none;
+}
+div.ROW h5{
+	font-size:2em;
+	overflow-wrap: break-word;
+}
+div.ROW figure img{
+	width:100%;
+	border:none;
+	border-radius:0;
+	
+}
+fieldset#part1 div.field{	 
+	margin-top: 3em;
+}
+#starCol1 aside#years{
+	border: 7px solid #F08E33;
+	padding :5px;
+	width: 80%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius : 10px/10px;
+}
+
+#starCol1 aside#years ul li{
+	margin-left:5%;
+	padding-bottom: 5px;
+}
+#starCol2 div.GRID3 div.ROW div figure img{
+	filter:drop-shadow( 8px 8px);
+	
+}
+aside#aboutUs{
+	float:left;
+	width:30%;
+	margin-left: 2.0%;
+	
+	padding: 9px 1.5% 12px 2.5%;
+	border: 7px solid #F08E33;
+	border-radius: 60px/60px;
+	overflow-wrap: break-word;
+}
+aside#aboutUs div h3, aside#aboutUs div h4{
+	color: green;	
+}
+
+table, th, td{
+	border: 4px solid #F08E33;
+	border-collapse: collapse;
+	padding : 2px 2.0em;
+}
+table{
+	margin : auto auto;
+	background-color:#FDF3CF;
+	font-family: arial , sans-serif ; 
+	font-size: 110%;
+}
+table caption{
+	padding: 6px;
+	font-weight: bold;
+	color: green;
+	font-size:3em;
+}
+h3#formHeading{
+	font-weight: bold;
+	color: green;
+	font-size:3em;
+	margin:0;
+	text-align: center;
+}
+
+#Values{
+	background-color:#FFE26E;	
+}
+div#main{
+	display:flex;
+	justify-content: center;
+}
+fieldset{
+	width:55%;
+}
+div.field{
+	display: flex;
+	flex-flow: row;
+	margin : 1.5em;	
+}
+div.field label, div.field input{
+	flex: 1 1 150px;
+}
+legend {	
+	color: green;
+	font-size: 2em;
+	padding: 10px;
+	font-weight:bold;
+}
+fieldset#part2 div.gap{
+	margin-top: .4em;
+	margin-bottom:.4em;
+	
+}
+h4#rateheading{
+	margin:0;
+	margin-top:1em;
+	margin-bottom:1em;
+}
+fieldset#part1, fieldset#part2{
+	background-color:#FDF3CF;
+	border: 3px solid #F08E33;	
+}
+textarea{
+	height: 80px;
+	width: 95%;
+}
+fieldset#buttons{
+	padding-top: 20px;
+	text-align: center;
+	width : auto;
+	border : 0;
+}
+fieldset #buttons{
+	text-align: center;
+}
+#submitButton, #resetButton{
+	background-color: #FDF3CF;
+	border: 2px solid green;	
+	color:green;
+	padding: 15px;
+	font-size: .8em;
+	font-weight:bold;
+}
+/* footer styles */
+footer{ 
+	text-align: center;
+	font-size:0.9em;
+	padding:0.5em 0.0em;
+	
+	margin-top:2.0em;
+	background-color:#F08E33;
+	clear:left;
+}
+footer a:link{
+	color:#000066;
+	
+}
+
+
+h5{
+	font-weight: bold;
+	color: green;
+	font-size:3em;
+	margin:0;
+}
+div#right.video figure#historyPage img{
+	width:100%;
+	border: 3px solid green;
+	border-radius: 0;
+	
+}
+div.video figcaption{
+	font-size:.9em;
+}
+
+@media only screen and (max-width:480px){
+	
+	h1{
+		font-size:2em;
+		text-shadow:none;
+	}
+	
+	h2{
+	font-size: 1.5em;
+	background: linear-gradient(to right, #F08E33 80%, ivory  );
+	}
+	nav ul li{
+		overflow: hidden;
+	}
+	figure img{
+		display:none;
+	}
+		
+	fieldset#part1 div.field{	 
+		margin-top: 1em;
+	}
+	figure#coupons img {
+		display:inline;
+		width: 100%;
+		
+	}
+	aside#aboutUs{
+		float:none;
+		clear:left;
+		width:100%;
+		margin-left: 0%;
+	}
+	
+	table caption{
+		padding: 0;
+		font-weight: bold;
+		color: green;
+		font-size:2em;
+	}
+	table , th, td{
+		padding: 0;
+	}
+	div.ROW h5, table caption, #left.description h5, h3#formHeading, legend ,h5{
+		font-size: 1.5em;
+	}
+	#submitButton, #resetButton{
+		padding : 2px;
+	}
+}

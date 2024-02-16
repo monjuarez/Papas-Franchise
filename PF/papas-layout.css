@@ -1,0 +1,73 @@
+#grid-container{
+	display:grid;
+	grid-template-columns:30% auto;
+	grid-gap: 20px 20px;
+}
+#col1 aside {
+	width:90%;
+}
+#choices{
+	display:grid;
+	grid-template-rows:auto  auto;
+	grid-gap: 30px;
+}
+.grid-item{
+	width:40%;
+	height:auto;
+}
+#history{
+	display: grid;
+	grid-template-rows:60% auto;
+	grid-gap: 20px ;
+}
+div.GRIDC2{
+	display: grid;
+	grid-template-columns:40% auto;
+	grid-gap: 10px ;
+}
+div.right figure img{
+	width: 100%;
+	border-radius:0;
+	border: 2px solid green;
+}
+
+
+
+
+#starGrid{
+	display:grid;
+	grid-template-columns:20% auto;
+	grid-gap: 20px 10px;
+}
+#starCol1 aside{
+	width:90%;
+}
+#starCol2{
+	display:grid;
+	grid-template-rows:auto auto auto auto;
+	grid-gap: 10px;
+}
+div.ROW{
+	display:grid;
+	grid-template-columns:60% auto;
+	grid-gap:10px;
+}
+
+
+
+
+@media only screen and (max-width:480px){
+	#history, #grid-container ,#starGrid,div.GRIDC2, div.GRID3, div.ROW,div#main{
+		display:block;
+	}
+	div.GRIDC2 div.right figure img{
+		display:inline;
+		
+	}
+	fieldset{
+		width :90%;
+	}
+	#choices{
+	grid-gap: 5px;
+	}
+}
